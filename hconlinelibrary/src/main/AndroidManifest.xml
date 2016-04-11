@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="hconlinecom.jam.hconlinelibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+    </application>
+
+    <uses-sdk
+        android:maxSdkVersion="14"
+        android:targetSdkVersion="23"
+        tools:overrideLibrary="me.alexrs.prefs.lib,timber.log" />
+
+</manifest>

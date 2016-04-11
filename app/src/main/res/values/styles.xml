@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="root_layout">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">true</item>
+    </style>
+
+    <style name="RipleviewStyle_Accent">
+        <item name="rv_color">@color/colorAccent</item>
+        <item name="rv_type">simpleRipple</item>
+        <item name="rv_zoomScale">1.08</item>
+        <item name="rv_zoom">true</item>
+
+    </style>
+
+    <style name="RipleviewStyle_Whide">
+        <item name="rv_color">@color/colorAccent</item>
+        <item name="rv_type">simpleRipple</item>
+        <item name="rv_zoom">true</item>
+        <item name="rv_zoomScale">1.08</item>
+
+    </style>
+
+</resources>
